@@ -1,0 +1,64 @@
+.find-section {
+  margin-top: -80px;
+  height: 163px;
+}
+.find-section .left-box {
+  position: absolute;
+  z-index: 2;
+  width: 52.5%;
+  height: 163px;
+  background-image: url("../../../public/images/bluebox.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+.find-section .right-box {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 129px;
+  background-image: url("../../../public/images/redbox.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+}
+.find-section .right-box img {
+  width: 100%;
+}
+
+/* search input Css start */
+.find-section .input-group {
+  position: relative;
+}
+.find-section .input-group .search-button {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translate(0%, -50%);
+}
+.find-section .input-group input {
+  padding-left: 39px;
+}
+
+.right-inner-box {
+  width: 47.5%;
+  margin-left: auto;
+}
+
+.img-wrapper {
+  width: 82px;
+  height: 70px;
+}
+.content-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.match-font {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 1px;
+  margin: 0px;
+}

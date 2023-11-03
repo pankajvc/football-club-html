@@ -1,0 +1,65 @@
+.schedule-section {
+  background-image: url("../../assets/images/background.webp");
+  padding-bottom: 108px;
+}
+.schedule-section .left-box {
+  width: 460px;
+  margin-right: auto;
+}
+.schedule-section .right-box {
+  width: calc(100% - 460px);
+  margin-left: auto;
+}
+.schedule-section .button-block {
+  margin-top: 48px;
+}
+
+.square-block {
+  width: 20px;
+  height: 20px;
+  background-color: #d9d9d9;
+}
+.square-block.active {
+  background-color: #d1143e;
+}
+.list-element .active {
+  color: #d1143e;
+}
+.main-list {
+  margin: 50px 0;
+}
+
+.square-block:before {
+  width: 85px;
+  height: 1px;
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  display: block;
+  content: " ";
+  transform: translate(0, -50%);
+}
+.main-list .list-element:last-child .square-block:before {
+  display: none;
+}
+
+.schedule-section .match-links {
+  color: #676565;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+.schedule-section .match-links.active {
+  color: #d1143e;
+}
+
+.schedule-section .link-element {
+  margin-left: 20px;
+}
+.schedule-section .player-block {
+  max-width: 500px;
+  margin-left: auto;
+  margin-top: 100px;
+}
