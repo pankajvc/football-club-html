@@ -1,0 +1,25 @@
+.header-root {
+    top: 0;
+    left:0;
+    right: 0;
+}
+.header-root a {
+    text-decoration: none;
+    color: var(--white);
+    margin-right: 40px;
+    letter-spacing: 1px;
+  }
+  .header-root a:last-child {
+    margin-right: 0;
+  }
+  .header-root a.logo {
+    margin: 0 8px;
+  }
+  .header-root .main-header {
+    max-width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  } 
+
