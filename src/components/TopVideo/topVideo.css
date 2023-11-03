@@ -1,0 +1,68 @@
+.top-video {
+  padding: 80px 0;
+  background: url(../../assets/images/video-bg.png) no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.top-video::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(5, 13, 23, 0.81);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.top-video h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin: 0;
+}
+.top-video h4 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--white);
+  margin: 0;
+}
+.top-video .content-box {
+  position: relative;
+  z-index: 2;
+}
+.top-video .thumbnail-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 25px;
+}
+.top-video .thumbnail-box:last-child {
+    margin-bottom: 0;
+}
+
+.top-video .thumbnail-box p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--white);
+  max-width: 150px;
+  margin: 0;
+}
+.top-video .thumbnail-box span {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  color: var(--white);
+}
+.top-video .thumbnail-content {
+    margin-left: 24px;
+}

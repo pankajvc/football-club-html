@@ -4,6 +4,13 @@ import './landingPage.css'
 import BlueBox from "../assets/images/blue-box.svg"
 import RedBox from "../assets/images/red-box.svg"
 import AboutImg from "../assets/images/about-img.png"
+import Blog from '../components/Blog'
+import FinalResult from '../components/FinalResult'
+import TopPlayers from '../components/TopPlayers'
+import TopVideo from '../components/TopVideo'
+import OurTeam from '../components/OurTeam'
+import Subscribe from '../components/Subscribe'
+import Footer from '../components/Footer'
 
 export default function LandingPage() {
   return (
@@ -17,16 +24,16 @@ export default function LandingPage() {
           </div>
         </div>
       </div>
-      <section className='position-relative find-section'>
+      {/* <section className='position-relative find-section'>
         <div className='left-box'>
           <img src={BlueBox} alt='' />
         </div>
         <div className='right-box'>
           <img src={RedBox} alt='' />
         </div>
-      </section>
+      </section> */}
 
-      <section className='about-section'>
+      {/* <section className='about-section'>
         <div className='container-xl'>
           <div className='image-box'>
             <img src={AboutImg} alt='' />
@@ -34,7 +41,14 @@ export default function LandingPage() {
 
         </div>
 
-      </section>
+      </section> */}
+      <Blog />
+      <FinalResult />
+      <TopPlayers />
+      <TopVideo />
+      <OurTeam/>
+      <Subscribe/>
+      <Footer/>
     </>
   )
 }

@@ -1,19 +1,24 @@
 :root {
-  --white: #ffffff
+  --white: #ffffff;
+  --red: #d1143e;
+  --black: #2f2f2f;
+  --light-red: rgba(209, 20, 62, 0.7);
+  --light-black: #565656
 }
 
 * {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
-body,html {
+body,
+html {
   background-color: var(--white);
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
   color: var(--white);
+  height: 100vh;
 }
 a {
   text-decoration: none;
 }
-
