@@ -30,13 +30,13 @@ function FindMatch() {
         <div className="right-inner-box">
           <div className="content-block ">
             <div className="img-wrapper">
-              <img className="w-100" src={Soccer} alt="soccer" />
+              <img src={SoccerChamp} alt="soccer-champ" className="w-100" />
             </div>
             <div className="">
               <p className="match-font  mx-4 mt-1">01 - 02</p>
             </div>
             <div className="img-wrapper">
-              <img src={SoccerChamp} alt="soccer-champ" className="w-100" />
+              <img className="w-100" src={Soccer} alt="soccer" />
             </div>
           </div>
           <p className="text-center text-white par-14 mb-0">
