@@ -1,0 +1,17 @@
+.slice-button {
+  background-color: #f51e4e;
+  background-image: -webkit-linear-gradient(
+    -64deg,
+    #f51e4e 49.95%,
+    #d1143e 50.05%
+  );
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1px;
+  padding: 9px 13px 10px;
+  text-transform: capitalize;
+  color: #ffffff;
+  border: 0px;
+  min-width: fit-content;
+}
